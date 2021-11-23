@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-pubsub",
+  "version": "1.0.0",
+  "description": "sample of pubsub with node and rabbitmq",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "sub": "node sub.js",
+    "pub": "node pub.js"
+  },
+  "author": "Patrik Nygren",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
